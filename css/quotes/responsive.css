@@ -1,0 +1,554 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width:992px) and (max-width: 1200px) {
+	header {
+		padding: 20px 0;
+	}
+	.oneslide img{
+		height: auto;
+	}
+	.maincontent h1 {
+		font-size: 150px;	
+		line-height: 170px;
+		padding-bottom: 0;
+	}
+	.maincontent h2 {
+		font-size: 45px;
+	}
+	.maincontent{
+		top: 30%;
+		left: 20%;
+	}
+	#slidenew h3 {
+		padding-top: 25px;
+		font-size: 25px;
+		line-height: 35px;
+	}
+	#slidenew .bx-wrapper .bx-pager, #slidenew .bx-wrapper .bx-controls-auto {		
+		right: 44%;
+	}
+	#slidenew,.maincontentnew {
+		min-height: auto;
+	}
+	#category p.innerp {  
+		min-height: 122px;
+	}
+	.imgdivright img,.imgdivrightinner img {
+		height: auto;
+	}
+	footer .footerp{
+		font-size: 14px;
+		letter-spacing: 1px;
+	}
+	footer .social a{
+		margin-left: 15px;
+	}
+
+}
+
+@media only screen and (min-width: 960px) and (max-width: 991px) {
+	header {
+		padding: 20px 0;
+	}
+	.oneslide img{
+		height: auto;
+	}
+	.maincontent h1 {
+		font-size: 150px;	
+		line-height: 170px;
+		padding-bottom: 0;
+	}
+	.maincontent h2 {
+		font-size: 45px;
+	}
+	.maincontent{
+		top: 30%;
+		left: 20%;
+	}
+	#slidenew h3 {
+		padding-top: 15px;
+		font-size: 22px;
+		line-height: 30px;
+	}
+	#slidenew span.lighted {   
+		font-size: 25px;
+		line-height: 30px;
+		padding: 15px 0;   
+	}
+	#slidenew,.maincontentnew{
+		min-height: auto;
+	}
+	.imgdivright img,.imgdivrightinner img {
+		height: auto;
+	}
+	#slidenew .bx-wrapper .bx-pager, #slidenew .bx-wrapper .bx-controls-auto {
+		bottom: 3%;
+		right: 34%;
+	}
+	#about h3, #category h3, #event h3, #gallery h3 {		
+		font-size: 45px;
+		line-height: 50px;
+	}
+	#category article{
+		padding: 20px;
+	}
+	#category h4 {    
+		font-size: 25px;   
+		line-height: 35px;
+		padding-bottom: 20px;
+	}
+	#category p.innerp {		
+		min-height: 150px;
+		font-size: 16px;
+	}
+	#event,#contact,#gallery{
+		padding: 100px 0;
+	}
+	#contact article a, #contact p.addressp, footer .footerp, footer .footerp a{
+		letter-spacing: 1px;  
+		font-size: 15px;
+		line-height: 30px;
+	}
+	#contact h5{
+		padding-bottom: 25px;
+	}
+	#contact p.addressp {
+		padding-bottom: 20px;
+	}
+	footer .social a{
+		font-size: 20px;
+		margin-left: 11px;
+	}
+	footer .footerp,footer .footerp a{
+		letter-spacing: 0px;
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.innercontent p.innerp{
+		font-size: 16px;
+		letter-spacing: 1px;
+	}
+	.innercontent p.innerp:last-child{
+		font-size: 12px
+	}
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {	
+	.logo img{
+		width: 150px;
+		margin-top: 10px;
+	}
+	.nav-toggle{
+		top: 0;
+	}
+	header.sticky .nav-toggle {
+		top: 12px;
+	}
+	.bx-wrapper .bx-pager.bx-default-pager a{
+		width: 15px;
+		height: 15px;
+	}
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	header {
+		padding: 20px 0;
+	}
+	.oneslide img{
+		height: auto;
+	}
+	.maincontent h1 {
+		font-size: 110px;
+		line-height: 130px;
+		padding-bottom: 0;
+	}
+	.maincontent h2 {
+		font-size: 32px;		  
+		line-height: 8px;
+		letter-spacing: 3px;
+	}
+	.maincontent{
+		top: 30%;
+		left: 19%;
+	}
+	#banner .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+		bottom: 3%;
+	}
+	#about h2,#about h3{		
+		font-size: 45px;
+		line-height: 55px;
+	}
+	#about p.boldp {  
+		font-size: 18px;
+		line-height: 23px;
+		padding: 20px 0;
+	}
+	#about p.innerp, #category p.innerp {	
+		padding-bottom: 20px;
+		font-size: 16px;
+		line-height: 25px;
+	}
+	#slidenew h3 {
+		padding-top: 15px;
+		font-size: 22px;
+		line-height: 30px;
+	}
+	#slidenew span.lighted {   
+		font-size: 25px;
+		line-height: 30px;
+		padding: 15px 0;   
+	}
+	#slidenew,.maincontentnew{
+		min-height: auto;
+	}
+	.imgdivright img,.imgdivrightinner img {
+		height: auto;
+	}
+	#slidenew .bx-wrapper .bx-pager, #slidenew .bx-wrapper .bx-controls-auto {
+		bottom: 3%;
+		right: 34%;
+	}
+	#about h3, #category h3, #event h3, #gallery h3 {		
+		font-size: 33px;
+		line-height: 40px;
+	}
+	#category span.line, #gallery span.line {
+		margin: 15px 0 50px;
+	}
+	#category article{
+		padding: 20px;
+	}
+	#event h3 {
+		padding-bottom: 20px;
+	}
+	#category h4 {    
+		font-size: 25px;   
+		line-height: 35px;
+		padding-bottom: 20px;
+	}
+	#category p.innerp {		
+		min-height: 120px;
+		font-size: 16px;
+	}
+	#event,#contact,#gallery,#category{
+		padding: 80px 0;
+	}
+	#contact article a, #contact p.addressp, footer .footerp, footer .footerp a{
+		letter-spacing: 1px;  
+		font-size: 15px;
+		line-height: 30px;
+	}
+	#contact h5{
+		padding-bottom: 25px;
+	}
+	#contact p.addressp {
+		padding-bottom: 20px;
+	}
+	footer .social a{
+		font-size: 20px;
+		margin-left: 11px;
+	}
+	footer .footerp,footer .footerp a{
+		letter-spacing: 0px;
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.innercontent p.innerp{
+		font-size: 16px;
+		letter-spacing: 1px;
+	}
+	.innercontent p.innerp:last-child{
+		font-size: 12px
+	}
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	.nav-collapse ul {
+		padding-top: 0;
+	}
+	header {
+		padding: 10px 0;
+	}
+	.logo img{
+		width: 100px;
+	}
+	.nav-toggle {
+		right: 15px;
+		height: 40px;
+		background-size: 40px;
+	}
+	#banner .bx-wrapper .bx-pager.bx-default-pager a {
+		width: 10px;
+		height: 10px;
+	}
+	#banner .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+		bottom :0;
+	}
+	
+	.maincontent{
+		top: 30%;
+		left: 19%;
+	}
+	
+
+	#slidenew img {
+		width: 400px;	
+		margin: 0 auto;
+		height: auto;
+	}
+	#slidenew h3 {
+		padding-top: 15px;
+		font-size: 22px;
+		line-height: 30px;
+	}
+	#slidenew span.lighted {   
+		font-size: 25px;
+		line-height: 30px;
+		padding: 15px 0;   
+	}
+	#slidenew article{
+		text-align: center;
+	}
+	#slidenew,.maincontentnew{
+		min-height: 600px;
+	}
+	.imgdivrightinner img {
+		width: auto !important;
+		height: auto;
+	}
+	.imgdivright img{
+		height: auto;
+	}
+	#slidenew .bx-wrapper .bx-pager, #slidenew .bx-wrapper .bx-controls-auto {
+		bottom: -10%;
+		right: 0;
+	}
+	#gallery img{
+		margin: 0 auto 15px;
+	}
+	#about h3, #category h3, #event h3, #gallery h3 {		
+		font-size: 30px;
+		line-height: 35px;
+	}
+	#category span.line, #gallery span.line {
+		margin: 15px 0 50px;
+	}
+	#category article{
+		padding: 20px;
+		width: 100%;
+	}
+	#event h3 {
+		padding-bottom: 20px;
+	}
+	#category h4 {    
+		font-size: 25px;   
+		line-height: 35px;
+		padding-bottom: 20px;
+	}
+	#category p.innerp {		
+		min-height: 95px;
+		font-size: 16px;
+	}
+	#event,#contact,#gallery,#category,#about{
+		padding: 50px 0;
+	}
+	#contact article a, #contact p.addressp, footer .footerp, footer .footerp a{
+		letter-spacing: 1px;  
+		font-size: 15px;
+		line-height: 30px;
+	}
+	#contact h5{
+		padding-bottom: 5px;
+	}
+	#contact p.addressp {
+		padding-bottom: 20px;
+	}
+	footer .social a{
+		font-size: 20px;
+		margin-left: 11px;
+	}
+	footer .footerp,footer .footerp a{
+		letter-spacing: 0px;
+		font-size: 14px;
+		line-height: 20px;
+		text-align: center;
+	}
+	.innercontent p.innerp{
+		font-size: 16px;
+		letter-spacing: 1px;
+	}
+	.innercontent p.innerp:last-child{
+		font-size: 12px
+	}
+	#contact article{
+		padding-top: 20px;
+	}
+	#contact article.contactsend, #contact article.mailsend{
+		text-align: center;
+	}
+	#contact button.reason{
+		margin: 20px auto 0;
+	}
+	footer .social {
+		text-align: center;
+		padding-top: 10px;
+	}
+	input{
+		padding-left: 0;
+		text-align: center;
+	}
+	.logo img {		
+		margin-top: 8px;
+	}
+	.nav-toggle {
+		top: 7px;
+	}
+	header.sticky .nav-toggle {
+		top: 7px;
+	}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.nav-collapse a{
+		font-size: 25px;
+		line-height: 39px;
+		letter-spacing: 1px;
+	}
+	.oneslide img{
+		height: auto;
+	}
+	.maincontent h1 {
+		font-size: 75px;
+		line-height: 90px;
+		letter-spacing: 4px;
+	}
+
+	.maincontent h2 {
+		font-size: 22px;
+		line-height: 0;
+		letter-spacing: 1px;
+	}
+	#about h2,#about h3{		
+		font-size: 45px;
+		line-height: 55px;
+	}
+	#about p.boldp {  
+		font-size: 18px;
+		line-height: 23px;
+		padding: 20px 0;
+	}
+
+	#about p.innerp, #category p.innerp {	
+		padding-bottom: 20px;
+		font-size: 16px;
+		line-height: 25px;
+	}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {	
+	.logo img {
+		margin-top: 5px;
+	}
+	header.sticky .nav-toggle {
+		top: 6px;
+	}
+	.nav-collapse a{
+		font-size: 25px;
+		line-height: 39px;
+		letter-spacing: 1px;
+	}
+	.nav-collapse li{		
+		padding-bottom: 3px;
+	}
+	.oneslide img {
+		height: 261px;
+	}
+	.maincontent h1 {
+		font-size: 50px;
+		line-height: 60px;
+		letter-spacing: 3px;
+	}
+	.maincontent h2 {
+		font-size: 17px;
+		line-height: 0;
+		letter-spacing: 0px;
+	}
+	#banner .bx-wrapper .bx-pager.bx-default-pager a{
+		margin: 0 5px;
+	}
+	#about h2, #about h3 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	#about p.boldp {
+		font-size: 15px;
+		line-height: 20px;
+		padding: 15px 0;
+	}
+	span.line{
+		margin: 0 auto 30px;
+	}
+	#about p.innerp, #category p.innerp {
+		padding-bottom: 10px;
+		font-size: 13px;
+		line-height: 22px;
+	}
+	#slidenew h3 {
+		padding-top: 15px;
+		font-size: 18px;
+		line-height: 26px;
+	}
+	#slidenew span.lighted {
+		font-size: 22px;
+		line-height: 25px;   
+	}
+	#slidenew, .maincontentnew {
+		min-height: 510px;
+	}
+	#about h3, #category h3, #event h3, #gallery h3 {
+		font-size: 27px;
+		line-height: 29px;
+	}
+	#category span.line, #gallery span.line {
+		margin: 10px 0 30px;
+	}
+	#category p.innerp {
+		padding-bottom: 0;
+	}
+	#category h4 {
+		font-size: 20px;  
+		padding-bottom: 5px;
+	}
+	button.reason{
+		margin: 15px auto 0;
+		width: 240px;
+		height: 40px;
+		font-size: 16px;
+	}
+	#event h3{
+		font-size: 19px;
+		line-height: 25px;
+		padding-bottom: 10px;
+	}
+	#event p.regular{
+		font-size: 15px;
+		line-height: 15px;
+	}
+	.imgdivrightinner img{
+		width: 100% !important;
+	}
+	.innercontent{
+		bottom:5%;
+	}
+	#event, #contact, #gallery, #category, #about {
+		padding: 30px 0;
+	}
+}
+

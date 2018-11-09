@@ -1,0 +1,8 @@
+#alert{
+  display: none;
+  text-align: center;
+  padding: 10px;
+  background: rgba(10,10,10,0.7);
+  color: white;
+  margin-bottom: 10px;
+}
